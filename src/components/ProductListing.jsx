@@ -1,0 +1,1 @@
+const ProductListing = () => <h2>Product Listing</h2>
