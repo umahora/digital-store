@@ -3,7 +3,6 @@ import Logo from "./Logo";
 import { Link } from "react-router";
 import MyButton from "./MyButton";
 
-// import imgHeader from "../assets/logo-header.svg";
 import imgMiniCart from "../assets/mini-cart.svg";
 import imgLupa from "../assets/lupa.svg";
 import NavBar from "./Navbar";
@@ -50,12 +49,12 @@ const MiniCart = () => {
 };
 
 const Header = ({ onHeight }) => {
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpenNav, setIsOpenNav] = useState(false);
     const [isOpenSearch, setIsOpenSearch] = useState(false);
     const [isVisible, setIsVisible] = useState(true);
     const divRef = useRef();
 
-    const toggleOpen = () => setIsOpen(!isOpen);
+    const toggleOpenNav = () => setIsOpenNav(!isOpenNav);
     const toggleOpenSearch = () => setIsOpenSearch(!isOpenSearch);
 
     useEffect(() => {
@@ -90,7 +89,7 @@ const Header = ({ onHeight }) => {
         >
             <div className="relative flex gap-10 mx-auto lg:max-w-[1440px] px-5 py-5 lg:pt-8.5 lg:px-26 z-50 bg-white">
                 <div className="flex flex-1 items-center gap-6 justify-between">
-                    <MenuButton isOpen={isOpen} toggleOpen={toggleOpen} />
+                    <MenuButton isOpen={isOpenNav} toggleOpen={toggleOpenNav} />
                     <Logo image="header" />
                     {/* <img src={imgHeader} alt="" /> */}
                     <InputSearch />
@@ -134,7 +133,7 @@ const Header = ({ onHeight }) => {
                 </div>
                 
             </div>
-            <NavBar isOpen={isOpen} toggleOpen={toggleOpen} />
+            <NavBar isOpen={isOpenNav} toggleOpen={toggleOpenNav} />
         </header>
     );
 };
