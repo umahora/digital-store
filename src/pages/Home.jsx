@@ -1,13 +1,16 @@
 import React from "react";
-import Layout from "../layouts/Layout";
-import Section from "../components/Section";
-import ProductCard from "../components/ProductCard";
-
+import Layout from "@/layouts/Layout";
+import Section from "@/components/Section";
+import ProductCard from "@/components/ProductCard";
+import { Tennis } from "@/assets";
+import { TrendingProducts } from "@/data/products";
 const MyLink = {
-    "text": "Ver todos",
-    "href": "/produtos",
+    text: "Ver todos",
+    href: "/produtos",
 };
 const Home = () => {
+    console.log(TrendingProducts);
+    
     return (
         <Layout>
             {/* Queima de stoque Nike 🔥 */}
@@ -22,6 +25,11 @@ const Home = () => {
                     <ProductCard />
                     <ProductCard />
                 </div> */}
+
+                <ProductCard product={TrendingProducts[0]}/>
+                <ProductCard product={TrendingProducts[1]}/>
+                <ProductCard product={TrendingProducts[2]}/>
+                <ProductCard product={TrendingProducts[2]}/>
             </Section>
         </Layout>
     );

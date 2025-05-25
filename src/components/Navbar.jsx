@@ -19,7 +19,7 @@ const ListLinks = () => {
 const NavBarMobile = ({ isOpen }) => {
     return (
         <div
-            className={`absolute bg-white h-dvh left-0 top-0 z-40 transform transition-transform duration-300 ease-in-out 
+            className={`absolute bg-white h-dvh left-0 top-0 z-40 duration-300 ease-in-out 
                 ${
                     isOpen ? "translate-x-0 " : "-translate-x-full"
                 } w-[80%] lg:hidden`}

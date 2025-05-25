@@ -1,3 +1,5 @@
+import { Tennis } from "@/assets";
+
 export const TrendingProducts = [
     {
         id: 1,
@@ -6,7 +8,7 @@ export const TrendingProducts = [
         originalPrice: 200,
         currentPrice: 100,
         discount: 30,
-        image: TENNIS.kSwiss,
+        image: Tennis.Tennis06,
     },
     {
         id: 2,
@@ -15,7 +17,7 @@ export const TrendingProducts = [
         originalPrice: 200,
         currentPrice: 100,
         discount: 30,
-        image: TENNIS.kSwiss,
+        image: Tennis.Tennis01,
     },
     {
         id: 3,
@@ -23,7 +25,7 @@ export const TrendingProducts = [
         category: "Tênis",
         originalPrice: 200,
         currentPrice: 100,
-        image: TENNIS.kSwiss,
+        image: Tennis.Tennis01,
     },
     {
         id: 4,
@@ -31,7 +33,7 @@ export const TrendingProducts = [
         category: "Tênis",
         originalPrice: 200,
         currentPrice: 100,
-        image: TENNIS.kSwiss,
+        image: Tennis.Tennis01,
     },
     {
         id: 5,
@@ -39,7 +41,7 @@ export const TrendingProducts = [
         category: "Tênis",
         originalPrice: 200,
         currentPrice: 100,
-        image: TENNIS.kSwiss,
+        image: Tennis.Tennis01,
     },
     {
         id: 6,
@@ -47,7 +49,7 @@ export const TrendingProducts = [
         category: "Tênis",
         originalPrice: 200,
         currentPrice: 100,
-        image: TENNIS.kSwiss,
+        image: Tennis.Tennis01,
     },
     {
         id: 7,
@@ -55,7 +57,7 @@ export const TrendingProducts = [
         category: "Tênis",
         originalPrice: 200,
         currentPrice: 100,
-        image: TENNIS.kSwiss,
+        image: Tennis.Tennis01,
     },
     {
         id: 8,
@@ -63,6 +65,6 @@ export const TrendingProducts = [
         category: "Tênis",
         originalPrice: 200,
         currentPrice: 100,
-        image: TENNIS.kSwiss,
+        image: Tennis.Tennis01,
     },
 ];

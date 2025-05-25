@@ -83,7 +83,7 @@ const Header = ({ onHeight }) => {
     return (
         <header
             ref={divRef}
-            className={`fixed bg-white font-inter top-0 left-0 w-full z-50 transform transition-transform duration-300 ease-in-out 
+            className={`fixed bg-white font-inter top-0 left-0 w-full z-50 duration-300 ease-in-out 
                 ${isVisible ? "translate-y-0" : "-translate-y-full"}`}
         >
             <div className="relative flex gap-10 mx-auto lg:max-w-[1440px] px-5 py-5 lg:pt-8.5 lg:px-26 z-50 bg-white">
@@ -112,7 +112,7 @@ const Header = ({ onHeight }) => {
 
             <div
                 className={`fixed bg-white w-full pb-4 pt-1 px-4 lg:hidden z-0
-                        transform transition-transform duration-300 ease-in-out
+                         duration-300 ease-in-out
                         top-[100%]
                     ${isOpenSearch ? "translate-y-0" : "-translate-y-full"}
                     ${isVisible ? "block" : "hidden"}

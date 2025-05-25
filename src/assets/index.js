@@ -22,6 +22,16 @@ import StarIcon from "./icons/star-icon.svg"
 import Twitter from "./icons/twitter.svg"
 
 
+export const Tennis ={
+    Tennis01,
+    Tennis02,
+    Tennis03,
+    Tennis04,
+    Tennis05,
+    Tennis06,
+    Tennis07
+}
+
 export {
     ArrowLeft,
     ArrowRight,
