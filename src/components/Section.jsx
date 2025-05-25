@@ -1,10 +1,7 @@
 import React from "react";
 import { Link } from "react-router";
 
-// const link = {
-//     text: "Ver todos",
-//     href: "https://redirect.link",
-// };
+
 const Section = ({ title, titleAlign = "left", link, children }) => {
     const aligns = {
         left: "ml-0",

@@ -3,8 +3,7 @@ import Logo from "./Logo";
 import { Link } from "react-router";
 import MyButton from "./MyButton";
 
-import imgMiniCart from "../assets/mini-cart.svg";
-import imgLupa from "../assets/lupa.svg";
+import { Lupa, MiniCart } from "@/assets";
 import NavBar from "./Navbar";
 import MenuButton from "./MenuButton";
 
@@ -19,7 +18,7 @@ const InputSearch = () => {
                 placeholder="Pesquisar produto..."
             />
             <button className="absolute left-[calc(100%_-_2rem)] top-[50%] -translate-y-1/2">
-                <img src={imgLupa} alt="" />
+                <img src={Lupa} alt="" />
             </button>
         </div>
     );
@@ -36,10 +35,10 @@ const Login = () => {
     );
 };
 
-const MiniCart = () => {
+const Cart = () => {
     return (
         <div className="relative">
-            <img className="min-w-[24px] aspect-auto" src={imgMiniCart} />
+            <img className="min-w-[24px] aspect-auto" src={MiniCart} />
 
             <div className="hidden place-content-center bg-error rounded-full absolute w-[17px] h-[17px] text-xs text-center text-white font-bold -top-1 -right-2">
                 2
@@ -102,11 +101,11 @@ const Header = ({ onHeight }) => {
                         >
                             <img
                                 className="max-w-[24px] aspect-auto"
-                                src={imgLupa}
+                                src={Lupa}
                                 alt=""
                             />
                         </button>
-                        <MiniCart />
+                        <Cart />
                     </div>
                 </div>
             </div>
@@ -128,7 +127,7 @@ const Header = ({ onHeight }) => {
                         placeholder="Pesquisar produto..."
                     />
                     <button className="absolute left-[calc(100%_-_2rem)] top-[50%] -translate-y-1/2">
-                        <img src={imgLupa} alt="" />
+                        <img src={Lupa} alt="" />
                     </button>
                 </div>
                 

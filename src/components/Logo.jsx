@@ -1,7 +1,9 @@
+import { LogoHeader, LogoFooter } from "@/assets";
+
 const Logo = ({ className = "", image}) => {
     const ImgsLogo = {
-        header:"src/assets/logo-header.svg",
-        footer:"src/assets/logo-footer.svg"
+        header:LogoHeader,
+        footer:LogoFooter
     }
     
     return <img className="max-w-[170px] lg:min-w-[253px]" src={`${ImgsLogo[image]}`} />;
