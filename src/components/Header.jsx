@@ -86,7 +86,7 @@ const Header = ({ onHeight }) => {
             className={`fixed bg-white font-inter top-0 left-0 w-full z-50 duration-300 ease-in-out 
                 ${isVisible ? "translate-y-0" : "-translate-y-full"}`}
         >
-            <div className="relative flex gap-10 mx-auto lg:max-w-[1440px] px-5 py-5 lg:pt-8.5 lg:px-26 z-50 bg-white">
+            <div className="relative flex gap-10 mx-auto lg:max-w-[1440px] px-5 py-5 lg:pt-8.5 lg:px-25 z-50 bg-white">
                 <div className="flex flex-1 items-center gap-6 justify-between">
                     <MenuButton isOpen={isOpenNav} toggleOpen={toggleOpenNav} />
                     <Logo image="header" />
@@ -110,11 +110,14 @@ const Header = ({ onHeight }) => {
                 </div>
             </div>
 
+
+            {/* input search mobile */}
             <div
                 className={`fixed bg-white w-full pb-4 pt-1 px-4 lg:hidden z-0
-                         duration-300 ease-in-out
+                        duration-300 ease-in-out
                         top-[100%]
-                    ${isOpenSearch ? "translate-y-0" : "-translate-y-full"}
+                        
+                    ${isOpenSearch ? "translate-y-0 shadow-md" : "-translate-y-full"}
                     ${isVisible ? "block" : "hidden"}
                 `}
             >
@@ -130,8 +133,8 @@ const Header = ({ onHeight }) => {
                         <img src={Lupa} alt="" />
                     </button>
                 </div>
-                
             </div>
+
             <NavBar isOpen={isOpenNav} toggleOpen={toggleOpenNav} />
         </header>
     );

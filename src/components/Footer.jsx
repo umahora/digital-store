@@ -31,7 +31,7 @@ const NavFooter = () => {
 const Footer = () => {
     return (
         <footer className="bg-dark-gray">
-            <div className="flex flex-col md:flex-row gap-6 md:gap-50 mx-auto md:max-w-[1440px] px-5 pt-8.5 pb-8.5 md:pt-18 md:px-26">
+            <div className="flex flex-col md:flex-row gap-6 md:gap-50 mx-auto md:max-w-[1440px] px-5 pt-8.5 pb-8.5 md:pt-18 md:px-25">
                 <div className="flex flex-col gap-5">
                     <Logo image="footer" />
 

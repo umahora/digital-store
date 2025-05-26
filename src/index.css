@@ -4,6 +4,7 @@
 
 @theme {
     --font-inter: "Inter", sans-serif;
+    --text-responsive: clamp(0.7rem, calc(5vw + 1rem), 1.5rem);
     --color-primary: #C92071;
     --color-secondary: #B5B6F2;
     --color-tertiary: #991956;
@@ -26,10 +27,11 @@
         text-rendering: optimizeLegibility;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        
+
     }
-    body{
-        background:var(--color-light-gray-3);
+
+    body {
+        background: var(--color-light-gray-3);
     }
 }
 

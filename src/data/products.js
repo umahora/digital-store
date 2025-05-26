@@ -17,7 +17,7 @@ export const TrendingProducts = [
         originalPrice: 200,
         currentPrice: 100,
         discount: 30,
-        image: Tennis.Tennis01,
+        image: Tennis.Tennis06,
     },
     {
         id: 3,
@@ -25,7 +25,7 @@ export const TrendingProducts = [
         category: "Tênis",
         originalPrice: 200,
         currentPrice: 100,
-        image: Tennis.Tennis01,
+        image: Tennis.Tennis06,
     },
     {
         id: 4,
@@ -33,7 +33,7 @@ export const TrendingProducts = [
         category: "Tênis",
         originalPrice: 200,
         currentPrice: 100,
-        image: Tennis.Tennis01,
+        image: Tennis.Tennis06,
     },
     {
         id: 5,
@@ -41,7 +41,7 @@ export const TrendingProducts = [
         category: "Tênis",
         originalPrice: 200,
         currentPrice: 100,
-        image: Tennis.Tennis01,
+        image: Tennis.Tennis06,
     },
     {
         id: 6,
@@ -49,7 +49,7 @@ export const TrendingProducts = [
         category: "Tênis",
         originalPrice: 200,
         currentPrice: 100,
-        image: Tennis.Tennis01,
+        image: Tennis.Tennis06,
     },
     {
         id: 7,
@@ -57,7 +57,7 @@ export const TrendingProducts = [
         category: "Tênis",
         originalPrice: 200,
         currentPrice: 100,
-        image: Tennis.Tennis01,
+        image: Tennis.Tennis06,
     },
     {
         id: 8,
@@ -65,6 +65,6 @@ export const TrendingProducts = [
         category: "Tênis",
         originalPrice: 200,
         currentPrice: 100,
-        image: Tennis.Tennis01,
+        image: Tennis.Tennis06,
     },
 ];
