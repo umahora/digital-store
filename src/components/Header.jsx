@@ -17,7 +17,7 @@ const InputSearch = () => {
                 type="text"
                 placeholder="Pesquisar produto..."
             />
-            <button className="absolute left-[calc(100%_-_2rem)] top-[50%] -translate-y-1/2">
+            <button className="absolute left-[calc(100%_-_2rem)] top-1/2 -translate-y-1/2">
                 <img src={Lupa} alt="" />
             </button>
         </div>

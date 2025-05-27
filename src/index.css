@@ -4,7 +4,6 @@
 
 @theme {
     --font-inter: "Inter", sans-serif;
-    --text-responsive: clamp(0.7rem, calc(5vw + 1rem), 1.5rem);
     --color-primary: #C92071;
     --color-secondary: #B5B6F2;
     --color-tertiary: #991956;
@@ -17,6 +16,17 @@
     --color-light-gray: #8F8F8F;
     --color-light-gray-2: #CCCCCC;
     --color-light-gray-3: #F5F5F5;
+
+
+    /* --text-h1-desktop: ;
+    --text-h2-desktop: ;
+    --text-h3-desktop: ;
+    --text-h4-desktop: ; */
+    
+    /* --text-h1-mobile: ;
+    --text-h2-mobile: ;
+    --text-h3-mobile: ;
+    --text-h4-mobile: ; */
 }
 
 @layer base {
@@ -27,7 +37,6 @@
         text-rendering: optimizeLegibility;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-
     }
 
     body {

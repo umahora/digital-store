@@ -1,4 +1,4 @@
-import { TENNIS } from "@/assets";
+import { Tennis } from "@/assets";
 
 export const Slides = [
     {

@@ -15,9 +15,9 @@ const ProductCard = ({ product }) => {
             {/* 292x321 */}
             <div
                 className="flex place-items-center p-5 bg-white rounded-md relative
-                h-[163px] 
-                md:h-[220px]
-                lg:h-[250px] 
+                h-[180px]
+                md:h-[250px]
+                lg:h-[270px]
                 xl:h-[321px]
                 duration-300 ease-in-out
                 hover:-translate-y-[4px]

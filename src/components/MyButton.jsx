@@ -13,7 +13,7 @@ export const MyButton = ({
         <button
             className={`${btnTypes[myStyle]} px-9 py-2.5 tracking-[0.75px] text-sm leading-5 font-bold cursor-pointer rounded-sm`}
         >
-            <Link to={path}>{children}</Link>
+            <Link to={path} className="font-bold">{children}</Link>
         </button>
     );
 }

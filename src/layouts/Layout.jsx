@@ -15,7 +15,6 @@ const Layout = ({ children }) => {
             <Header onHeight={setAltura} />
             <main className="pt-[70px] lg:pt-[184px]">{children}</main>
             <Footer />
-            
             {/* {console.log(altura)} */}
         </>
     );
