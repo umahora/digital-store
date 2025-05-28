@@ -1,3 +1,4 @@
+import { Component } from "lucide-react";
 import Section from "./Section";
 import { Cap, Calca, Sapato, Headset, Camiseta } from "@/assets";
 
@@ -11,29 +12,42 @@ const MyDiv = ({ text, children }) => {
         </div>
     );
 };
+const info = [
+    {
+        component: Camiseta,
+        text:"Camisetas"
+    },
+    {
+        component: Calca,
+        text:"Calça"
+    },
+    {
+        component: Cap,
+        text:"Bonés"
+    },
+    {
+        component: Headset,
+        text:"Headsets"
+    },
+    {
+        component: Sapato,
+        text:"Tênis"
+    }
+]
 
 const IconsCollections = () => {
-
-
 
     return (
         <Section title={"Coleções em destaque"} titleAlign={"center"} className="py-20 md:py-25">
             <div className="flex items-center justify-center gap-4.5 md:gap-12 overflow-x-auto">
-                <MyDiv text="Camisetas">
-                    <Camiseta className="hover:fill-primary"/>
-                </MyDiv>
-                <MyDiv text="Camisetas">
-                    <Calca className="hover:fill-primary"/>
-                </MyDiv>
-                <MyDiv text="Bonés">
-                    <Cap className="hover:fill-primary"/>
-                </MyDiv>
-                <MyDiv text="Headsets">
-                    <Headset className="hover:fill-primary hover:stroke-primary "/>
-                </MyDiv>
-                <MyDiv text="Tênis">
-                    <Sapato className="hover:fill-primary"/>
-                </MyDiv>
+                {info.map(item => {
+                    const Component = item.component;
+                    return(
+                        <MyDiv text={item.text}>
+                            <Component className="hover:fill-primary hover:stroke-primary "/>
+                        </MyDiv>
+                    )
+                })}
             </div>
         </Section>
     );
