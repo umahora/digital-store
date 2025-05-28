@@ -7,6 +7,7 @@ export const MyButton = ({
 }) => {
     const btnTypes = {
         default: "bg-primary text-light-gray-3 hover:bg-primary/90 active:bg-tertiary",
+        theme2: "bg-light-gray-3 text-primary hover:bg-light-gray-3/70 active:bg-gray-400",
         // colocar mais temas de btns, se tiver
     };
     return (

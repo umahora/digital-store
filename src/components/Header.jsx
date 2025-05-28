@@ -18,7 +18,7 @@ const InputSearch = () => {
                 placeholder="Pesquisar produto..."
             />
             <button className="absolute left-[calc(100%_-_2rem)] top-1/2 -translate-y-1/2">
-                <img src={Lupa} alt="" />
+                <img src={Lupa} className="fill-amber-600" alt="" />
             </button>
         </div>
     );
@@ -89,7 +89,7 @@ const Header = ({ onHeight }) => {
             <div className="relative flex gap-10 mx-auto lg:max-w-[1440px] px-5 py-5 lg:pt-8.5 lg:px-25 z-50 bg-white">
                 <div className="flex flex-1 items-center gap-6 justify-between">
                     <MenuButton isOpen={isOpenNav} toggleOpen={toggleOpenNav} />
-                    <Logo image="header" />
+                    <Logo image="header"/>
                     {/* <img src={imgHeader} alt="" /> */}
                     <InputSearch />
                     <Login />

@@ -21,6 +21,7 @@ const ProductCard = ({ product }) => {
                 xl:h-[321px]
                 duration-300 ease-in-out
                 hover:-translate-y-[4px]
+                hover:shadow-md
                 cursor-pointer"
             >
                 {discount && (

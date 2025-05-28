@@ -17,16 +17,7 @@
     --color-light-gray-2: #CCCCCC;
     --color-light-gray-3: #F5F5F5;
 
-
-    /* --text-h1-desktop: ;
-    --text-h2-desktop: ;
-    --text-h3-desktop: ;
-    --text-h4-desktop: ; */
-    
-    /* --text-h1-mobile: ;
-    --text-h2-mobile: ;
-    --text-h3-mobile: ;
-    --text-h4-mobile: ; */
+    --my-grid-template:repeat(auto-fit, minmax(338px, 1fr));
 }
 
 @layer base {
