@@ -6,7 +6,9 @@ import Tennis05 from "./tennis/tennis05.png"
 import Tennis06 from "./tennis/tennis06.png"
 import Tennis07 from "./tennis/tennis07.png"
 
-
+import Camisa from './topCollections/camisa.png'
+import Tenis from './topCollections/tenis.png'
+import Headphones from './topCollections/headphones.png'
 
 import ArrowLeft from "./icons/arrow-left.svg"
 import ArrowRight from "./icons/arrow-right.svg"
@@ -22,7 +24,7 @@ import StarIcon from "./icons/star-icon.svg"
 import Twitter from "./icons/twitter.svg"
 
 
-export const Tennis ={
+export const Tennis = {
     Tennis01,
     Tennis02,
     Tennis03,
@@ -31,6 +33,7 @@ export const Tennis ={
     Tennis06,
     Tennis07
 }
+
 
 export {
     ArrowLeft,
@@ -44,5 +47,8 @@ export {
     MiniCart,
     react,
     StarIcon,
-    Twitter
+    Twitter,
+    Camisa,
+    Tenis,
+    Headphones
 }
