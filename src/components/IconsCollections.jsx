@@ -15,38 +15,41 @@ const MyDiv = ({ text, children }) => {
 const info = [
     {
         component: Camiseta,
-        text:"Camisetas"
+        text: "Camisetas",
     },
     {
         component: Calca,
-        text:"Calça"
+        text: "Calça",
     },
     {
         component: Cap,
-        text:"Bonés"
+        text: "Bonés",
     },
     {
         component: Headset,
-        text:"Headsets"
+        text: "Headsets",
     },
     {
         component: Sapato,
-        text:"Tênis"
-    }
-]
+        text: "Tênis",
+    },
+];
 
 const IconsCollections = () => {
-
     return (
-        <Section title={"Coleções em destaque"} titleAlign={"center"} className="py-20 md:py-25">
+        <Section
+            title={"Coleções em destaque"}
+            titleAlign={"center"}
+            className="py-20 md:py-25"
+        >
             <div className="flex items-center justify-center gap-4.5 md:gap-12 overflow-x-auto">
-                {info.map(item => {
+                {info.map((item, id) => {
                     const Component = item.component;
-                    return(
-                        <MyDiv text={item.text}>
-                            <Component className="hover:fill-primary hover:stroke-primary "/>
+                    return (
+                        <MyDiv key={id} text={item.text}>
+                            <Component className="hover:fill-primary hover:stroke-primary"/>
                         </MyDiv>
-                    )
+                    );
                 })}
             </div>
         </Section>

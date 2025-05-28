@@ -10,9 +10,9 @@ const NavFooter = () => {
     return (
         <nav className="flex flex-wrap md:grid grid-cols-2 gap-4 md:grid-cols-3 text-white">
             {informations.map((section, index) => (
-                <div key={index} className="flex flex-col gap-3">
+                <div key={index} className="flex flex-col gap-7">
                     <h2 className="text-lg font-semibold">{titles[index]}</h2>
-                    <ul className="flex flex-col gap-1 text-base">
+                    <ul className="flex flex-col gap-4 text-base">
                         {section.map((item, i) => (
                             <li
                                 key={i}
