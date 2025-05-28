@@ -16,9 +16,9 @@ const NavFooter = () => {
                         {section.map((item, i) => (
                             <li
                                 key={i}
-                                className="active:text-primary  hover:text-primary"
+                                
                             >
-                                <Link to={item.link}>{item.text}</Link>
+                                <Link className="active:text-primary  hover:text-primary" to={item.link}>{item.text}</Link>
                             </li>
                         ))}
                     </ul>

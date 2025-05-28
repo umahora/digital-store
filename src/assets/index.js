@@ -24,6 +24,13 @@ import StarIcon from "./icons/star-icon.svg"
 import Twitter from "./icons/twitter.svg"
 
 
+import Cap from "./iconsCollections/cap.svg?react"
+import Calca from "./iconsCollections/calca.svg?react"
+import Headset from "./iconsCollections/headset.svg?react"
+import Camiseta from "./iconsCollections/camiseta.svg?react"
+import Sapato from "./iconsCollections/tennis.svg?react"
+
+
 export const Tennis = {
     Tennis01,
     Tennis02,
@@ -50,5 +57,10 @@ export {
     Twitter,
     Camisa,
     Tenis,
-    Headphones
+    Headphones,
+    Cap,
+    Calca,
+    Headset,
+    Camiseta,
+    Sapato
 }

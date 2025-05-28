@@ -23,7 +23,7 @@ const info = [
 
 const TopCollections = () => {
     return (
-        <Section title={"Coleções em destaque"} titleAlign={"left"}>
+        <Section title={"Coleções em destaque"} >
             <div className="grid grid-cols-(--my-grid-template) justify-items-center gap-3">
                 {info.map((item, id) => (
                     <div
@@ -32,7 +32,7 @@ const TopCollections = () => {
                         duration-300 ease-in-out
                         hover:shadow-md"
                     >
-                        <div className="grid justify-items-start gap-2.5">
+                        <div className="grid justify-items-start gap-2.5 relative z-10">
                             {item.discount && (
                                 <div className="px-4 py-1.5 leading-5.5 tracking-wide font-bold text-xs md:text-sm text-dark-gray-2 rounded-full bg-[#E7FF86]">
                                     {item.discount}% OFF
@@ -48,7 +48,7 @@ const TopCollections = () => {
                         </div>
                         <img
                             src={item.image}
-                            className="object-cover absolute right-0 -bottom-1 h-full"
+                            className="object-cover absolute right-0 -bottom-1 h-full z-0"
                         />
                     </div>
                 ))}

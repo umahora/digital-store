@@ -10,7 +10,7 @@ const MyLink = {
 
 const ProductListing = () => {
     return (
-        <Section title={"Produtos em alta"} link={MyLink} >
+        <Section title={"Produtos em alta"}  link={MyLink} >
             <div className="grid justify-items-center grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {TrendingProducts.map((item) => (
                     <ProductCard key={item.id} product={item} />
