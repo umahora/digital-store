@@ -28,7 +28,7 @@ const TopCollections = () => {
                 {info.map((item, id) => (
                     <div
                         key={id}
-                        className="flex items-center bg-[#D8E3F2] relative w-full h-53 p-5 md:px-7.5 rounded-md overflow-hidden
+                        className="bg-[#D8E3F2] relative w-full h-53 p-5 md:px-7.5 rounded-md overflow-hidden
                         duration-300 ease-in-out
                         hover:shadow-md"
                     >
@@ -44,7 +44,6 @@ const TopCollections = () => {
                             <MyButton myStyle={"theme2"} path="/">
                                 Comprar
                             </MyButton>
-                            
                         </div>
                         <img
                             src={item.image}

@@ -19,7 +19,7 @@ const info = [
     },
     {
         component: Calca,
-        text: "Calça",
+        text: "Calças",
     },
     {
         component: Cap,
