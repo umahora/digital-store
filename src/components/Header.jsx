@@ -11,9 +11,7 @@ const InputSearch = () => {
     return (
         <div className="relative flex-1 max-w-[559px] hidden lg:flex">
             <input
-                className="bg-dark-gray-2/4 px-4 py-4 rounded-lg
-                            placeholder-dark-gray-3/60 w-full
-                            outline-0 focus:outline-primary focus:outline-2"
+                className="bg-dark-gray-2/4 px-4 py-4 rounded-lg placeholder-dark-gray-3/60 w-full outline-0 focus:outline-primary focus:outline-2"
                 type="text"
                 placeholder="Pesquisar produto..."
             />

@@ -8,7 +8,7 @@ export const Slides = [
         description:
             "Aproveite descontos especiais em produtos selecionados. Ofertas exclusivas com até 30% de desconto na linha Nike.",
         buttonText: "Ver Ofertas",
-        imageSrc: TENNIS.sneakers,
+        imageSrc: Tennis.Tennis01,
     },
     {
         id: 2,
@@ -17,7 +17,7 @@ export const Slides = [
         description:
             "Descubra os últimos lançamentos da Nike com designs inovadores e tecnologia de ponta.",
         buttonText: "Explorar Coleção",
-        imageSrc: TENNIS.sneakers,
+        imageSrc: Tennis.Tennis01,
     },
     {
         id: 3,
@@ -26,7 +26,7 @@ export const Slides = [
         description:
             "Aproveite descontos incríveis em nossa linha de tênis de corrida. Oferta válida enquanto durarem os estoques.",
         buttonText: "Comprar Agora",
-        imageSrc: TENNIS.sneakers,
+        imageSrc: Tennis.Tennis01,
     },
     {
         id: 4,
@@ -35,6 +35,14 @@ export const Slides = [
         description:
             "Chegaram os novos Air Jordan Retro. Design clássico com tecnologia moderna para quadra e estilo.",
         buttonText: "Ver Coleção",
-        imageSrc: TENNIS.sneakers,
+        imageSrc: Tennis.Tennis01,
     },
 ];
+
+export const ImgGallery = [
+    {imageSrc: Tennis.Tennis03},
+    {imageSrc: Tennis.Tennis03},
+    {imageSrc: Tennis.Tennis03},
+    {imageSrc: Tennis.Tennis03},
+    {imageSrc: Tennis.Tennis03},
+]

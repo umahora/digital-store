@@ -17,7 +17,7 @@
     --color-light-gray-2: #CCCCCC;
     --color-light-gray-3: #F5F5F5;
 
-    --my-grid-template:repeat(auto-fit, minmax(338px, 1fr));
+    --my-grid-template: repeat(auto-fit, minmax(338px, 1fr));
 }
 
 @layer base {
@@ -31,23 +31,44 @@
     }
 
     body {
-        background: var(--color-light-gray-3);
+        background: #F9F8FE;
     }
-}
 
-a.active {
-    color: var(--color-primary);
-    font-weight: 700;
-    position: relative;
-    letter-spacing: 0.75px;
-}
+    a.active {
+        color: var(--color-primary);
+        font-weight: 700;
+        position: relative;
+        letter-spacing: 0.75px;
+    }
 
-a.active::before {
-    content: '';
-    position: absolute;
-    background: var(--color-primary);
-    width: 100%;
-    height: 2px;
-    border-radius: 2px;
-    bottom: -4px;
+    a.active::before {
+        content: '';
+        position: absolute;
+        background: var(--color-primary);
+        width: 100%;
+        height: 2px;
+        border-radius: 2px;
+        bottom: -4px;
+    }
+
+    .custom-pattern {
+        background-image: radial-gradient(#f6aa1c70 2px, transparent 2px);
+        background-size: 16px 16px;
+        background-color: transparent;
+    }
+
+    
+    /* .mySwiper .swiper-pagination {
+        bottom: -20px !important;
+        
+    }
+    .mySwiper .swiper-pagination-bullet {
+        width: 16px;
+        height: 16px;
+        background-color: #999;
+        opacity: 1;
+    }
+    .mySwiper .swiper-pagination-bullet-active {
+        background-color: #007bff;
+    } */
 }
