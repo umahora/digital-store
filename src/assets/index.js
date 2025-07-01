@@ -22,6 +22,7 @@ import MiniCart from "./icons/mini-cart.svg"
 import react from "./icons/react.svg"
 import StarIcon from "./icons/star-icon.svg"
 import Twitter from "./icons/twitter.svg"
+import Filter from "./icons/filter.svg?react"
 
 
 import Cap from "./iconsCollections/cap.svg?react"
@@ -62,5 +63,6 @@ export {
     Calca,
     Headset,
     Camiseta,
-    Sapato
+    Sapato,
+    Filter
 }

@@ -44,7 +44,7 @@ const NavBarMobile = ({ isOpen }) => {
     );
 };
 
-const Navbar = ({ isOpen, toggleOpen}) => {
+const Navbar = ({ isOpen, toggleOpen }) => {
     return (
         <nav className="bg-white text-base relative">
             <div className="lg:block mx-auto lg:max-w-[1440px] lg:px-26 lg:pt-5 lg:pb-7.5">
@@ -56,10 +56,10 @@ const Navbar = ({ isOpen, toggleOpen}) => {
             <NavBarMobile isOpen={isOpen} />
 
             {/* OVERLAY  */}
-            <button onClick={toggleOpen}
+            <button
+                onClick={toggleOpen}
                 className={`h-screen inset-0 absolute left-0 top-0 z-10 duration-300 ease-in-out 
                 ${isOpen ? "bg-dark-gray/40" : "hidden"}`}
-                
             ></button>
         </nav>
     );

@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import ProductCard from "./ProductCard";
 import Section from "./Section"
 import { TrendingProducts } from "@/data/products";
@@ -13,7 +14,9 @@ const ProductListing = () => {
         <Section title={"Produtos em alta"}  link={MyLink} >
             <div className="grid justify-items-center grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {TrendingProducts.map((item) => (
-                    <ProductCard key={item.id} product={item} />
+                    <Link to={`/produtos/${item.id}`}>
+                        <ProductCard key={item.id} product={item} />
+                    </Link>
                 ))}
             </div>
         </Section>

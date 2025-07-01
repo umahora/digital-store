@@ -20,7 +20,7 @@ const OfferSpecial = () => {
                 <section className="md:flex-1 flex justify-center">
                     <div className="relative">
                         <img className="relative py-13 w-75 md:w-143 object-contain z-30" src={image} />
-                        <div className="absolute -bottom-40 md:-bottom-60 left-1/2 -translate-1/2 h-70 w-70 md:min-h-116.5 md:w-116.5
+                        <div className="absolute -bottom-40 lg:-bottom-70 lx:-bottom-60 left-1/2 -translate-1/2 h-70 w-70 md:min-h-116.5 md:w-116.5
                         bg-linear-to-t from-white from-40% to-[#4400ff36] 
                         rounded-full z-0"></div>
 

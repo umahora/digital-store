@@ -7,14 +7,14 @@ import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 
-const Gallery = ({ className = "" }) => {
+const Carousel = () => {
     return (
         <>
             <section className="bg-light-gray-3 py-4 md:py-10">
                 <section
-                    className={`relative 2xl:w-[1440px] 2xl:h-[681px] flex flex-col justify-center mx-auto overflow-hidden ${className}`}
+                    className="'relative 2xl:w-[1440px] 2xl:h-[681px] flex flex-col justify-center mx-auto overflow-hidden"
                 >
-                    <div className="absolute flex rounded-full overflow-hidden -right-15 md:right-0 top-0">
+                    <div className="aqui-dddd absolute flex rounded-full overflow-hidden -right-15 md:right-50 md:top-50">
                         <div className="w-35 h-35 custom-pattern"></div>
                     </div>
 
@@ -23,7 +23,7 @@ const Gallery = ({ className = "" }) => {
                         pagination={{ clickable: true }}
                         loop={true}
                         autoplay={{
-                            delay: 4500,
+                            delay: 5500,
                             disableOnInteraction: false,
                         }}
                         className="w-full h-full"
@@ -64,4 +64,4 @@ const Gallery = ({ className = "" }) => {
         </>
     );
 };
-export default Gallery;
+export default Carousel;
